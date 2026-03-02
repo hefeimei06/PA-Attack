@@ -1189,8 +1189,8 @@ class Qwen3VLModel(Qwen3VLPreTrainedModel):
         print(pixel_values.shape)
 
         eps = (8 / 255) * 2  
-        stepsize_adv = (4 / 255) * 2    # 步长通常设为 epsilon 的 1/4 或更小
-        iterations_adv = 100
+        stepsize_adv = (4 / 255) * 2
+        iterations_adv = 300
         norm = 'linf'
 
         with torch.no_grad():
