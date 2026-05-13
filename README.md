@@ -35,6 +35,8 @@ CUDA_VISIBLE_DEVICES=0 bash bash/of_prototype_generation.sh
 
 You can use `python download_ai2d_dataset.py` and `python download_cdip_dataset.py` to download ScienceQA and RVL-CDIP datasets. And use `prototype/prototype_pca_ood.py` for `bash/llava_prototype_generation.sh` to generate out-of-distribution guidance.
 
+*You can also download all prototypes in this [link](https://drive.google.com/drive/folders/1vb8UHHKFueBC4YkbDnPvMVjBU4Z6Wp_6?usp=sharing).*
+
 ### Attack Evaluation
 
 For captioning and VQA tasks, evaluation can be performed by modifying the -- eval_coco instruction in the args to eval_flicker30, eval_textvqa, and eval_vqav2.
